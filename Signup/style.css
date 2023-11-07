@@ -4,6 +4,6 @@ body {
 
 .container{
   border: 1px solid grey;
-  width: 75px;
-  height: 20px;
+  width: 100px;
+  height: 200px;
 }
