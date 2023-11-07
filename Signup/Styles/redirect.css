@@ -1,0 +1,31 @@
+body {
+    font-family: Poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 260%;
+    transform: translateY(160%);
+  }
+
+  .p{
+    font-size: 20px;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+  }
+
+  .click{
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    transition: 0.5s;
+  }
+
+  .click:hover{
+    font-size: 20px;
+    color: lightskyblue;
+    transition: all 0.5s;
+  }
+
+  .click:active{
+    opacity: 0.5;
+}
