@@ -1,0 +1,25 @@
+.header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding-bottom: 50px;
+    border-bottom: solid grey 1px;
+    background-color: rgb(250, 253, 255);
+    text-align: start;
+}
+.header p{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+    position: relative;
+    top: 170%;
+    transform: translateY(70%);
+    transition: color 0.20s;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+}
+.header p:hover{
+    color: lightskyblue;
+    transition: color 0.20s;
+}
