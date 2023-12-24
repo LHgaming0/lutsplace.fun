@@ -1,0 +1,46 @@
+header{
+    border: 2px whitesmoke solid;
+    margin: 8px 6px 8px 6px;
+    border-radius: 8px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.350);
+    padding: 8px 6px 8px 6px;
+}
+
+.home{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    margin: auto;
+    padding: 10px;
+    transition: color 0.15s, text-shadow 0.15s;
+}
+.home:hover{
+    color: #A5D7E8;
+    transition: color 0.15s, text-shadow 0.15s;
+    text-shadow: 0 0 7px rgba(165, 215, 232, 0.911);
+}
+
+.sign-up-header{
+    color: #A5D7E8;
+    border: #A5D7E8 2px solid;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    margin-right: 17px;
+    margin-top: 2px;
+    padding: 5px 15px 5px 15px;
+    font-size: 16px;
+    background-image: linear-gradient(140deg, #6bbad4, #005dfd, #572692);
+    cursor: pointer;
+    transition: text-shadow 0.15s, box-shadow 0.15s;
+    font-weight: 700;
+}
+.sign-up-header:hover{
+    box-shadow: 0 0 7px rgba(165, 215, 232, 0.911);
+    transition: box-shadow 0.25s;
+}
+.sign-up-header::after{
+    content: "";
+    clear: both;
+    display: table;
+}
