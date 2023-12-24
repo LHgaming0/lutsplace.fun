@@ -25,6 +25,7 @@ header{
     border: #A5D7E8 2px solid;
     border-radius: 10px;
     position: absolute;
+    right: 0;
     margin-right: 17px;
     margin-top: 2px;
     padding: 5px 15px 5px 15px;
@@ -32,6 +33,7 @@ header{
     background-image: linear-gradient(140deg, #6bbad4, #005dfd, #572692);
     cursor: pointer;
     transition: text-shadow 0.15s, box-shadow 0.15s;
+    font-weight: 700;
 }
 .sign-up-header:hover{
     box-shadow: 0 0 7px rgba(165, 215, 232, 0.911);
