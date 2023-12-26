@@ -21,11 +21,12 @@ body{
     right: 50%;
     left: 45%;
     position: absolute;
-    top: 52%;
-    transform: translateY(-48%);
+    top: 48%;
+    transform: translateY(-52%);
     border-left: solid whitesmoke 3px;
     padding-left: 15px;
     font-size: 20px;
+    cursor: default;
 }
 
 .sign-up{
@@ -34,8 +35,8 @@ body{
     border-radius: 14px;
     position: absolute;
     right: 20%;
-    top: 50%;
-    padding: 10px 30px 10px 30px;
+    top: 48%;
+    padding: 10px 25px 10px 25px;
     font-size: 30px;
     background-image: linear-gradient(140deg, #6bbad4, #005dfd, #572692);
     cursor: pointer;
